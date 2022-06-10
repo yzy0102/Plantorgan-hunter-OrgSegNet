@@ -4,7 +4,7 @@ Plantorgan hunter: a deep learning-based framework for quantitative profiling pl
 Please install requirement by "using pip install -r requirements.txt" first.
 
 # Local Development
-If you want to use the local deployment of OrgSegNet, you first need to download the OrgSegNet file and the model weights file.
+If you want to use the local deployment of OrgSegNet, you first need to download the "OrgSegNet_LocalDevlopment" file and the model weights file.
 
 The model weight file download address: https://pan.baidu.com/s/15swgKnIPEfzWPsd72KfQrQ?pwd=m0vz    code is m0vz.
 
