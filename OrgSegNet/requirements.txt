@@ -1,0 +1,15 @@
+onnx
+onnxruntime-gpu
+opencv-python==4.5.5.62
+Shapely
+scikit-image
+scikit-learn
+scipy
+pandas
+networkx
+pickleshare
+numpy
+Pillow
+matplotlib
+mmcv
+mmcv-full
