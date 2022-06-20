@@ -22,21 +22,37 @@ The result contains 6 parts, and the segmentation results and morphological metr
 Result folder directory:
 
 |-Result
+
 |----Chloroplast
+
 |----Chloroplast_.png (where organelle number is marked)
+
 |----Chloroplast__.tif (organelle segmentation)
+
 |----Chloroplast_info.csv (including area and electron-density of single organelle)
+
 |----shape_info
+
 |----LabeledShapes.png (where organelle number is marked equal to Chloroplast_.png)
+
 |----ShapeResultsTable.csv (including shape-complexity of single organelle)
+
 |----visibilityGraphs.gpickle (original graph data of organelle)
+
 |----Mitochondrion
+
 |----......
+
 |----Nucleus
+
 |----......
+
 |----Vacuole
+
 |----......
+
 |----1.jpg
+
 |----2.jpg
 
 The input image
