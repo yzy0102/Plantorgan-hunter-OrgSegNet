@@ -22,37 +22,21 @@ The result contains 6 parts, and the segmentation results and morphological metr
 Result folder directory:
 
 |-Result
-
 |----Chloroplast
-
 |----Chloroplast_.png (where organelle number is marked)
-
 |----Chloroplast__.tif (organelle segmentation)
-
 |----Chloroplast_info.csv (including area and electron-density of single organelle)
-
 |----shape_info
-
 |----LabeledShapes.png (where organelle number is marked equal to Chloroplast_.png)
-
 |----ShapeResultsTable.csv (including shape-complexity of single organelle)
-
 |----visibilityGraphs.gpickle (original graph data of organelle)
-
 |----Mitochondrion
-
 |----......
-
 |----Nucleus
-
 |----......
-
 |----Vacuole
-
 |----......
-
 |----1.jpg
-
 |----2.jpg
 
 The input image
@@ -62,3 +46,10 @@ The output segmantation result.
 Metrics
 ![image](https://user-images.githubusercontent.com/54012483/174547124-a40395c0-0668-43d7-a917-7da7480caac8.png)
 ![image](https://user-images.githubusercontent.com/54012483/174547402-6de439c9-802f-4cbd-ad69-c6853ae0cf21.png)
+
+
+# Test images
+You can grab some test images at this link! After opening the link through your browser, right-click to save the image locally.
+https://github.com/yzy0102/Plantorgan-hunter-OrgSegNet/raw/main/OrgSegNet_LocalDevlopment/test_img/2000nm460pixels.jpg
+https://github.com/yzy0102/Plantorgan-hunter-OrgSegNet/raw/main/OrgSegNet_LocalDevlopment/test_img/2000nm520pixels.jpg
+https://github.com/yzy0102/Plantorgan-hunter-OrgSegNet/raw/main/OrgSegNet_LocalDevlopment/test_img/800nm520pixels.jpg
