@@ -21,4 +21,6 @@ The input image
 ![800nm520pixels](https://user-images.githubusercontent.com/54012483/174546721-0073ef64-c456-4acd-8017-0ac49ddc6e74.jpg)
 The output segmantation result.
 ![image](https://user-images.githubusercontent.com/54012483/174546614-3a4ce335-f52e-4de9-946a-7c54178f8fb7.jpg)
-
+Metrics
+![image](https://user-images.githubusercontent.com/54012483/174547124-a40395c0-0668-43d7-a917-7da7480caac8.png)
+![image](https://user-images.githubusercontent.com/54012483/174547402-6de439c9-802f-4cbd-ad69-c6853ae0cf21.png)
