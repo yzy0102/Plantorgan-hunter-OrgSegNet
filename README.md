@@ -17,6 +17,44 @@ Then, you can run the main.py file to get the result you want.
 If you want to train a model yourself, you can do so by using the jupyter notebook file in the file.
 
 # A simple example
+The result contains 6 parts, and the segmentation results and morphological metrics of organelle will be included in the folder named after the organelle. For example, the area and electron density parameters of a single organelle are included in Chloroplast_info.csv, and the individual serial number of the organelle is identified in Chloroplast_.png. In the shape_info folder, ShapeResultsTable.csv contains the shape information of the individual chloroplasts, visibilityGraphs.gpickle contains the original graph data of the organelles, and LabeledShapes.pn contains the individual serial numbers of the organelles.
+
+Result folder directory:
+
+|-Result
+
+|----Chloroplast
+
+|----Chloroplast_.png (where organelle number is marked)
+
+|----Chloroplast__.tif (organelle segmentation)
+
+|----Chloroplast_info.csv (including area and electron-density of single organelle)
+
+|----shape_info
+
+|----LabeledShapes.png (where organelle number is marked equal to Chloroplast_.png)
+
+|----ShapeResultsTable.csv (including shape-complexity of single organelle)
+
+|----visibilityGraphs.gpickle (original graph data of organelle)
+
+|----Mitochondrion
+
+|----......
+
+|----Nucleus
+
+|----......
+
+|----Vacuole
+
+|----......
+
+|----1.jpg
+
+|----2.jpg
+
 The input image
 ![800nm520pixels](https://user-images.githubusercontent.com/54012483/174546721-0073ef64-c456-4acd-8017-0ac49ddc6e74.jpg)
 The output segmantation result.
